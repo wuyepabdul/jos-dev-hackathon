@@ -18,11 +18,31 @@
     ></script>
 
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K4M988VH5G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-K4M988VH5G');
+    </script>
   </head>
   <body>
     <nav class="nav-bar d-flex space-between page-padding align-center">
       <header>
         <h1 class="logo"><a href="/">#HackJOS</a></h1>
+        <h3 class="hidden"><img src="./images/hamburger.png" class="bars" alt=""></h3>
       </header>
       <ul class="nav-links d-flex align-center">
         <li><a href="#">About</a></li>
@@ -34,29 +54,29 @@
       </ul>
     </nav>
     <main>
+      <div class="bg-img"></div>
       <section class="intro page-padding">
         <div class="intro-text">
           <p class="p-heading">"Hello! Jos Devs"</p>
           <h1>
-            WELCOME TO #HackJOS <span>PRE-HACKATON WORKSHOP</span> <br /><span
-              >2021</span
-            >
+            YOU ARE WELCOME TO #HackJOS <br /><span>HACKATON WORKSHOP</span>
+            <br /><span>2021</span>
           </h1>
-          <p class="p-text">
+          <!-- <p class="p-text">
             A Pre-Hackathon workshop which prepares the teams for the HackJos
             Hackathon. All applicants are required to come with computers and
             teams mates. Interested individual can also be a part and find a
             team to work with at the workshop.
-          </p>
+          </p> -->
 
           <h3 class="intro-date">2021.09.27(Mon) ~ 30(Thur)</h3>
           @ Plateau State University, Bokkos
         </div>
       </section>
       <section class="main-program align-center">
-        <h3 class="program-heading">
+        <h3 class="section-heading">
           Main program
-          <hr />
+          <hr class="section-hr" />
         </h3>
         <div class="program-card-container d-flex align-center">
           <article class="program-card align-center">
@@ -114,11 +134,15 @@
       </section>
 
       <section class="featured-speakers page-padding">
-        <div><h3>Featured Speakers</h3></div>
+        <h3 class="section-heading align-center">
+          Featured Speakers
+          <hr class="section-hr" />
+        </h3>
         <div class="featured-speakers-container">
           <article class="featured-speakers-card d-flex">
+            <div class="black-white"></div>
             <div class="speaker-img">
-              <img src="./images/Daser-David.jpg" alt="daser david's image" />
+              <img src="./images/Simon-Lalong.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
               <h4>Simon Lalong</h4>
@@ -134,16 +158,14 @@
           </article>
 
           <article class="featured-speakers-card d-flex">
+            <div class="black-white"></div>
             <div class="speaker-img">
               <img src="./images/Daser-David.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
               <h4>Daser David</h4>
               <p>
-                <i
-                  >Director General of Plateau State Information and
-                  Communication Technology Development Agency(PICTDA)</i
-                >
+                <i>Director General of PICTDA</i>
               </p>
               <hr />
               <p>
@@ -154,6 +176,7 @@
           </article>
 
           <article class="featured-speakers-card d-flex">
+            <div class="black-white"></div>
             <div class="speaker-img">
               <img
                 src="./images/Professor-Yohanna-Izam.jpg"
@@ -163,7 +186,7 @@
             <div class="featured-text">
               <h4>Yohanna Izam</h4>
               <p>
-                <i>Vice Chancellor, Plateau State University, Bokkos</i>
+                <i>V.C, Plateau State University, Bokkos</i>
               </p>
               <hr />
               <p>
@@ -174,16 +197,14 @@
           </article>
 
           <article class="featured-speakers-card d-flex">
+            <div class="black-white"></div>
             <div class="speaker-img">
               <img src="./images/bomkam.jpg" alt="bomkam's image" />
             </div>
             <div class="featured-text">
               <h4>Bomkam Wuyep</h4>
               <p>
-                <i
-                  >Director General, Plateau State Microfinance Development
-                  Agency (PLASMIDA)</i
-                >
+                <i>Director General PLASMIDA</i>
               </p>
               <hr />
               <p>
@@ -194,13 +215,14 @@
           </article>
 
           <article class="featured-speakers-card d-flex">
+            <div class="black-white"></div>
             <div class="speaker-img">
               <img src="./images/theodore-longji.jpg" alt="longji's image" />
             </div>
             <div class="featured-text">
               <h4>Theodore Longji</h4>
               <p>
-                <i> Chief Executive Officer(CEO) nHub Nigeria </i>
+                <i> CEO nHub Nigeria </i>
               </p>
               <hr />
               <p>
@@ -211,6 +233,7 @@
           </article>
 
           <article class="featured-speakers-card d-flex">
+            <div class="black-white"></div>
             <div class="speaker-img">
               <img
                 src="./images/eric.jpeg"
@@ -221,7 +244,7 @@
             <div class="featured-text">
               <h4>Eric Nanle</h4>
               <p>
-                <i> Chief Executive Officer(CEO) nHub Foundation</i>
+                <i> CEO nHub Foundation</i>
               </p>
               <hr />
               <p>
@@ -243,7 +266,7 @@
             <div class="featured-text">
               <h4>Bashir Sheidu</h4>
               <p>
-                <i> Chief Executive Officer(CEO) Farmers's Market</i>
+                <i> CEO Farmers's Market</i>
               </p>
               <hr />
               <p>
@@ -254,6 +277,7 @@
           </article>
 
           <article class="featured-speakers-card d-flex">
+            <div class="black-white"></div>
             <div class="speaker-img">
               <img
                 src="./images/joseph-dilas.jpeg"
@@ -264,7 +288,7 @@
             <div class="featured-text">
               <h4>Joseph Dilas</h4>
               <p>
-                <i> Chief Executive Officer(CEO), Urbanstudent </i>
+                <i> CEO Urbanstudent.ng </i>
               </p>
               <hr />
               <p>
@@ -275,7 +299,40 @@
           </article>
         </div>
       </section>
+
+      <section class="partner-section page-padding">
+        <h3 class="section-heading align-center">
+          Partners
+          <hr class="section-hr" />
+        </h3>
+
+        <ul class="partners-link d-flex">
+          <li>
+            <a href="#"><h4>Hotel.ng</h4></a>
+          </li>
+          <li>
+            <a href="#"><h4>PICTDA</h4></a>
+          </li>
+          <li>
+            <a href="#"><h4>PLASMIDA</h4></a>
+          </li>
+          <li>
+            <a href="#"><h4>NITDA</h4></a>
+          </li>
+          <li>
+            <a href="#"><h3>nHub</h3></a>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer-section page-padding">
+      <h1 class="logo"><a href="/">#HackJOS</a></h1>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni iure
+        mollitia itaque eius molestias laboriosam, totam impedit beatae psum
+        dolor sit amet consectetur adipisicing elit. In magni iure mollitia
+        itaque eius molestias laboriosam, totam impedit beatae
+      </div>
+    </footer>
   </body>
 </html>
