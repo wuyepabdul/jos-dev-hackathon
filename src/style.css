@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  position: absolute;
 }
 
 .page-padding {
@@ -78,23 +79,25 @@ ul {
   padding: 0;
 }
 
-.bg-img {
+.intro {
+  position: relative;
+  background-color: #b93a3a34;
+  background: rgba(76, 175, 80, 0.1);
+  width: 100%;
+  padding-top: 60px;
+}
+
+.intro::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
   background-image: url('./images/coding-world.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #b93a3a34;
-  height: 100vh;
-  width: 100%;
   opacity: 0.1;
-  /* width: 100%; */
-
-}
-
-.intro {
-  position: absolute;
-  width: 100%;
-  top:40px;
-  padding-top: 60px;
 }
 
 .p-heading {
@@ -103,8 +106,15 @@ ul {
   color: #ec5242;
 }
 
+.color-gradient {
+  background: -webkit-linear-gradient(#ec5242, rgb(146, 40, 40), #ec5242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .intro-text {
-    padding-bottom: 80px;
+  position: relative;
+  padding-bottom: 80px;
 }
 
 .intro-text h1 {
@@ -168,6 +178,11 @@ ul {
   margin:5px;
 }
 
+.program-card-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
 .program-footer {
   width: 400px;
   text-decoration: underline;
@@ -182,57 +197,52 @@ ul {
 
 /* featured-speakers */
 
-.featured-speakers {
-  position: relative;
-  top:0;
-}
-
 .featured-speakers .section-heading {
   color: #272a31;
 }
 
 .featured-speakers-container {
   display: grid;
-  /* grid-template-rows: auto auto; */
   grid-template-columns: auto auto;
+  grid-auto-flow: row;
   gap: 25px;
 }
 
 .featured-speakers-card {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap:15px;
+  position: relative;
+    max-width: 700px;
+  display: flex;
 }
 
-.black-white {
+.featured-speakers-card::after {
+  content: '';
   position: absolute;
   background-image: url('./images/black-white2.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  width: 80px;
-  max-width: 80px;
-  height: 80px;
-  z-index: 1;
-  opacity: 0.5;
+  width: 70px;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  opacity: 0.6;
+  z-index: -1;
 }
-
 .speaker-img {
-  padding-top: 15px;
-  padding-left: 15px;
-  width: 100%;
-  height:200px;
-  max-width: 300px;
-  z-index: 2;
+  width: 200px;
+  max-width: 200px;
+  max-height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .speaker-img img {
   width: 100%;
   height: 100%;
-  max-width: 300px;
 }
 
 .featured-text {
-  padding-top: 10px;
+  padding-left: 10px;
+  max-width: 400px;
 }
 
 .featured-text i {
@@ -268,7 +278,6 @@ ul {
 
 .partners-link a {
   color: #d3d3d3;
-
 }
 
 /* footer */
@@ -283,6 +292,10 @@ ul {
 }
 
 @media (max-width:768px) {
+  .nav-bar :before {
+    opacity:0.1 ;
+  }
+  
   .logo {
     display: none;
   }
@@ -295,9 +308,100 @@ ul {
     display: block;
   }
 
-  .featured-speakers-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  .page-padding {
+    padding: 0 40px;
   }
+
+  .intro {
+    position: relative;
+    background-color: #b93a3a34;
+    background: rgba(76, 175, 80, 0.1);
+    width: 100%;
+    padding-top: 60px;
+  }
+  
+  .p-heading {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ec5242;
+  }
+  
+  .intro-text {
+    position: relative;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  
+  .intro-text h1 {
+    font-size: 30px;
+    color: #ec5242;
+    font-weight: 900;
+    word-spacing: 10px;
+  }
+  
+  .p-text {
+    width: 100%;
+    max-width: 600px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    border: 2px solid #fff;
+    background-color: #d3d3d334;
+  }
+  
+  .intro-date {
+    font-weight: 900;
+    color: #272a31;
+  }
+  
+  .featured-speakers .section-heading {
+    color: #272a31;
+  }
+  
+  .featured-speakers-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: row;
+    gap: 25px;
+  }
+
+  .main-program {
+    padding-bottom: 20px;
+  }
+
+  .program-card-container {
+    margin-bottom: 40px;
+  }
+  
+  .program-card {
+    display: flex;
+    background-color: #d3d3d334;
+    color: #d3d3d3;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-around;
+    text-align: left;
+    }
+
+    .program-card-text {
+      max-width: 170px;
+      padding-left: 10px;
+    }
+
+    .join {
+      display: block;
+      background-color:#ec5242;
+      max-width: 300px;
+      color: #d3d3d3;
+      padding: 40px 20px;
+      margin: 0 auto;
+    }
+
+    .program-footer {
+      padding: 20px 0;
+    }
+
+    .program-footer a {
+      display: none;
+    }
 }

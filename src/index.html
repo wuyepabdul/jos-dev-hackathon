@@ -18,9 +18,13 @@
     ></script>
 
     <link rel="stylesheet" href="./style.css" />
+
     <link
       rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./style.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,7 +46,9 @@
     <nav class="nav-bar d-flex space-between page-padding align-center">
       <header>
         <h1 class="logo"><a href="/">#HackJOS</a></h1>
-        <h3 class="hidden"><img src="./images/hamburger.png" class="bars" alt=""></h3>
+        <h3 class="hidden">
+          <img src="./images/hamburger.png" class="bars" alt="" />
+        </h3>
       </header>
       <ul class="nav-links d-flex align-center">
         <li><a href="#">About</a></li>
@@ -58,31 +64,35 @@
       <section class="intro page-padding">
         <div class="intro-text">
           <p class="p-heading">"Hello! Jos Devs"</p>
-          <h1>
-            YOU ARE WELCOME TO #HackJOS <br /><span>HACKATON WORKSHOP</span>
+          <h1 class="color-gradient">
+            WELCOME TO THE ANNUAL<br /><span> #HackJOS HACKATON</span>
             <br /><span>2021</span>
           </h1>
-          <!-- <p class="p-text">
+          <p class="p-text">
             A Pre-Hackathon workshop which prepares the teams for the HackJos
             Hackathon. All applicants are required to come with computers and
             teams mates. Interested individual can also be a part and find a
             team to work with at the workshop.
-          </p> -->
+          </p>
 
           <h3 class="intro-date">2021.09.27(Mon) ~ 30(Thur)</h3>
           @ Plateau State University, Bokkos
         </div>
       </section>
-      <section class="main-program align-center">
+      <section class="main-program align-center page-padding">
         <h3 class="section-heading">
           Main program
           <hr class="section-hr" />
         </h3>
         <div class="program-card-container d-flex align-center">
           <article class="program-card align-center">
-            <div class="program-card-img"><img src="" alt="" /></div>
+            <div class="program-card-icon">
+              <i class="fas fa-door-open"></i>
+            </div>
+            <div class="title">
+              <h4>Introduction</h4>
+            </div>
             <div class="program-card-text">
-              <h4>Lecture</h4>
               <p>
                 Listen to the speakers from various countries about the message
                 of sharing and opening
@@ -90,9 +100,11 @@
             </div>
           </article>
           <article class="program-card align-center">
-            <div class="program-card-img"><img src="" alt="" /></div>
+            <div class="program-card-icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <div class="title"><h4>Lecture</h4></div>
             <div class="program-card-text">
-              <h4>Lecture</h4>
               <p>
                 Listen to the speakers from various countries about the message
                 of sharing and opening
@@ -100,9 +112,11 @@
             </div>
           </article>
           <article class="program-card align-center">
-            <div class="program-card-img"><img src="" alt="" /></div>
+            <div class="program-card-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="title"><h4>Challenges</h4></div>
             <div class="program-card-text">
-              <h4>Lecture</h4>
               <p>
                 Listen to the speakers from various countries about the message
                 of sharing and opening
@@ -110,9 +124,11 @@
             </div>
           </article>
           <article class="program-card align-center">
-            <div class="program-card-img"><img src="" alt="" /></div>
+            <div class="program-card-icon">
+              <i class="fas fa-file-powerpoint"></i>
+            </div>
+            <div class="title"><h4>Hackathon</h4></div>
             <div class="program-card-text">
-              <h4>Lecture</h4>
               <p>
                 Listen to the speakers from various countries about the message
                 of sharing and opening
@@ -120,9 +136,9 @@
             </div>
           </article>
           <article class="program-card align-center">
-            <div class="program-card-img"><img src="" alt="" /></div>
+            <div class="program-card-icon"><i class="fas fa-poll"></i></div>
+            <div class="title"><h4>Results</h4></div>
             <div class="program-card-text">
-              <h4>Lecture</h4>
               <p>
                 Listen to the speakers from various countries about the message
                 of sharing and opening
@@ -130,6 +146,7 @@
             </div>
           </article>
         </div>
+        <div class="join">Join #HackJOS Hackathon 2021</div>
         <div class="program-footer"><a href="#">SEE THE WHOLE PROGRAM</a></div>
       </section>
 
@@ -139,161 +156,115 @@
           <hr class="section-hr" />
         </h3>
         <div class="featured-speakers-container">
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
+          <article class="featured-speakers-card">
             <div class="speaker-img">
               <img src="./images/Simon-Lalong.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
               <h4>Simon Lalong</h4>
-              <p>
-                <i>Executive Governor of Plateau State</i>
-              </p>
+              <i>Governor, Plateau State</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                corporis provident ad, exceptu
+                corporis provi
               </p>
             </div>
           </article>
-
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
+          <article class="featured-speakers-card">
             <div class="speaker-img">
-              <img src="./images/Daser-David.jpg" alt="daser david's image" />
+              <img src="./images/bomkam.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
-              <h4>Daser David</h4>
-              <p>
-                <i>Director General of PICTDA</i>
-              </p>
+              <h4>Bomkam WUyep</h4>
+              <i>Governor, Plateau State</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                corporis provident ad, excepturi
+                corporis provi
               </p>
             </div>
           </article>
-
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
+          <article class="featured-speakers-card">
             <div class="speaker-img">
-              <img
-                src="./images/Professor-Yohanna-Izam.jpg"
-                alt="daser david's image"
-              />
+              <img src="./images/Simon-Lalong.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
-              <h4>Yohanna Izam</h4>
-              <p>
-                <i>V.C, Plateau State University, Bokkos</i>
-              </p>
+              <h4>Simon Lalong</h4>
+              <i>Governor, Plateau State</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                maxime esse ipsam necessitatibu
+                corporis provi
               </p>
             </div>
           </article>
-
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
+          <article class="featured-speakers-card">
             <div class="speaker-img">
-              <img src="./images/bomkam.jpg" alt="bomkam's image" />
+              <img src="./images/bomkam.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
-              <h4>Bomkam Wuyep</h4>
-              <p>
-                <i>Director General PLASMIDA</i>
-              </p>
+              <h4>Bomkam WUyep</h4>
+              <i>Governor, Plateau State</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                corporis maxime esse ipsam necessitatibu
+                corporis provi
               </p>
             </div>
           </article>
-
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
+          <article class="featured-speakers-card">
             <div class="speaker-img">
-              <img src="./images/theodore-longji.jpg" alt="longji's image" />
+              <img src="./images/Simon-Lalong.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
-              <h4>Theodore Longji</h4>
-              <p>
-                <i> CEO nHub Nigeria </i>
-              </p>
+              <h4>Simon Lalong</h4>
+              <i>Governor, Plateau State</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                corporis provident ad, excepturi amet sunt repellendus beatae
+                corporis provi
               </p>
             </div>
           </article>
-
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
+          <article class="featured-speakers-card">
             <div class="speaker-img">
-              <img
-                src="./images/eric.jpeg"
-                class="responsive-image"
-                alt="Eric Nanle's image"
-              />
+              <img src="./images/bomkam.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
-              <h4>Eric Nanle</h4>
-              <p>
-                <i> CEO nHub Foundation</i>
-              </p>
-              <hr />
-              <p>
-                Lorem ipsum dolor corporis provident ad, excepturi amet sunt
-                repellendus beatae maxime esse ipsam necessitatibu
-              </p>
-            </div>
-          </article>
-
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
-            <div class="speaker-img">
-              <img
-                src="./images/Bash.jpeg"
-                alt="Bashir sheidu's image"
-                class="responsive-image"
-              />
-            </div>
-            <div class="featured-text">
-              <h4>Bashir Sheidu</h4>
-              <p>
-                <i> CEO Farmers's Market</i>
-              </p>
+              <h4>Bomkam WUyep</h4>
+              <i>Governor, Plateau State</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                corporis provident
+                corporis provi
               </p>
             </div>
           </article>
-
-          <article class="featured-speakers-card d-flex">
-            <div class="black-white"></div>
+          <article class="featured-speakers-card">
             <div class="speaker-img">
-              <img
-                src="./images/joseph-dilas.jpeg"
-                alt="Joseph dilas's image"
-                class="responsive-image"
-              />
+              <img src="./images/Simon-Lalong.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
-              <h4>Joseph Dilas</h4>
-              <p>
-                <i> CEO Urbanstudent.ng </i>
-              </p>
+              <h4>Simon Lalong</h4>
+              <i>Governor, Plateau State</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                i amet sunt repellendus beatae maxime esse ipsam necessitatibu
+                corporis provi
+              </p>
+            </div>
+          </article>
+          <article class="featured-speakers-card">
+            <div class="speaker-img">
+              <img src="./images/bomkam.jpg" alt="daser david's image" />
+            </div>
+            <div class="featured-text">
+              <h4>Bomkam WUyep</h4>
+              <i>Governor, Plateau State</i>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+                corporis provi
               </p>
             </div>
           </article>
@@ -328,6 +299,7 @@
     <footer class="footer-section page-padding">
       <h1 class="logo"><a href="/">#HackJOS</a></h1>
       <div>
+        <p>2021 #HackJOS Annual Hackathon some rights reserved</p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni iure
         mollitia itaque eius molestias laboriosam, totam impedit beatae psum
         dolor sit amet consectetur adipisicing elit. In magni iure mollitia
