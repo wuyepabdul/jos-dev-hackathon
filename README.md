@@ -1,24 +1,24 @@
 # #HackJOS Hackathon
 
-
+The #HackJos hackathon, the first hackathon in northern Nigeria, held on the 23rd and the 24th of March in the city of Jos, is an annual Hackathon aimed at descovering great talents in software development.
 
 ## Screenshots
 
-<img src="images/desktop1.png">
+<img src="src/images/desktop1.png">
 
-<img src="images/desktop2.png" >
+<img src="src/images/desktop2.png" >
 
-<img src="images/mobile1.png">
+<img src="src/images/mobile1.png">
 
-<img src="images/mobile2.png">
+<img src="src/images/mobile2.png">
 
-<img src="images/mobile3.png">
+<img src="src/images/mobile3.png">
 
-<img src="images/desktop1.png">
+<img src="src/images/desktop1.png">
 
-<img src="images/desktop2.png">
+<img src="src/images/desktop2.png">
 
-<img src="images/desktop3.png">
+<img src="src/images/desktop3.png">
 
 ## Built With
 
