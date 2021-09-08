@@ -288,6 +288,7 @@ ul {
   grid-template-columns: auto auto;
   gap: 35px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
