@@ -51,7 +51,7 @@ Run the project
 - GitHub:[@Wuyep Abdul](https://www.github.com/wuyepabdul)
 
 ## Acknowledgments
--  Cindy Shin in Behance
+- Original design idea by Cindy Shin in Behance
 
 ## License
 
