@@ -4,10 +4,6 @@ The #HackJos hackathon, the first hackathon in northern Nigeria, held on the 23r
 
 ## Screenshots
 
-<img src="src/images/desktop1.png">
-
-<img src="src/images/desktop2.png" >
-
 <img src="src/images/mobile1.png">
 
 <img src="src/images/mobile2.png">
@@ -18,12 +14,12 @@ The #HackJos hackathon, the first hackathon in northern Nigeria, held on the 23r
 
 <img src="src/images/desktop2.png">
 
-<img src="src/images/desktop3.png">
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Demo
 
@@ -34,13 +30,13 @@ https://wuyepabdul.github.io/microverse-porfolio/
 Clone the project
 
 ```bash
-  git clone https://github.com/wuyepabdul/microverse-porfolio
+  git clone https://github.com/wuyepabdul/jos-dev-hackathon
 ```
 
 Go to the project directory
 
 ```bash
-  cd hello-microverse
+  cd jos-dev-hackathon
 ```
 
 Run the project
@@ -53,7 +49,9 @@ Run the project
 ## Authors
 
 - GitHub:[@Wuyep Abdul](https://www.github.com/wuyepabdul)
-- GitHub: [@ifnotlily](https://github.com/ifnotlily)
+
+## Acknowledgments
+-  Cindy Shin in Behance
 
 ## License
 
