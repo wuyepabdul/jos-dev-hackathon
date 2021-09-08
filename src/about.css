@@ -23,6 +23,7 @@ body {
   width: 60px;
   height: 40px;
   display: none;
+  cursor: pointer;
 }
 
 hr {
@@ -307,6 +308,7 @@ p {
 
   .bars {
     display: block;
+      cursor: pointer;
   }
 
   .page-padding {

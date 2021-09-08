@@ -24,7 +24,54 @@ function closeMenu() {
 menuOpen.addEventListener('click', openMenu);
 menuClose.addEventListener('click', closeMenu);
 
-const featuredSpeakers = [
+const mainProgram = [
+  {
+    title: 'Introduction',
+    description:
+      'Listen to the speakers from various countries about the message of sharing and opening',
+    icon: 'fa-door-open',
+  },
+  {
+    title: 'Lecture',
+    description:
+      'Listen to the speakers from various countries about the message of sharing and opening',
+    icon: 'fa-chalkboard-teacher',
+  },
+  {
+    title: 'Challenges',
+    description:
+      'Listen to the speakers from various countries about the message of sharing and opening',
+    icon: 'fa-laptop-code',
+  },
+  {
+    title: 'Hackathon',
+    description:
+      'Listen to the speakers from various countries about the message of sharing and opening',
+    icon: 'fa-file-powerpoint',
+  },
+  {
+    title: 'Results',
+    description:
+      'Listen to the speakers from various countries about the message of sharing and opening',
+    icon: 'fa-poll',
+  },
+];
+
+let progamMarkup = ``;
+
+mainProgram.forEach((program) => {
+  progamMarkup += `<article class="program-card align-center">
+    <div class="program-card-icon"><i class= "fas ${program.icon}"></i></div>
+    <div class="title"><h4> ${program.title} </h4></div>
+    <div class="program-card-text">
+      <p>${program.description}
+      </p>
+    </div>
+  </article>`;
+});
+document.getElementById('program-container').innerHTML = progamMarkup;
+
+const allSpeakers = [
   {
     name: 'Simon Lalong',
     title: 'Governor, Plateau State',
@@ -74,11 +121,28 @@ const featuredSpeakers = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
   },
+
+  {
+    name: 'Daser David',
+    title: 'DG, PICTDA',
+    image: './images/Daser-David.jpg',
+    imageAlt: 'dasers picture',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
+  },
+  {
+    name: 'Bomkam Wuyep',
+    title: 'DG, PLASMIDA',
+    image: './images/bomkam.jpg',
+    imageAlt: 'bomkams picture',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
+  },
 ];
 
 let markup = ``;
 
-featuredSpeakers.forEach((speaker) => {
+allSpeakers.forEach((speaker) => {
   markup += `<article class="featured-speakers-card">
     <div class="speaker-img">
       <img src=${speaker.image} alt=${speaker.imageAlt} />
@@ -95,3 +159,36 @@ featuredSpeakers.forEach((speaker) => {
 });
 
 document.getElementById('featured-speakers-container').innerHTML = markup;
+
+const moreSpeakersContainer = document.querySelector('.get-more');
+const moreSpeakers = document.querySelector('.more');
+const allSpeakersContainer = document.querySelector('.all-speakers');
+const featuredSpeakersContainer = document.querySelector(
+  '.featured-speakers-container'
+);
+let speakersMarkup = ``;
+
+function loadFeaturedSpeakers() {
+  allSpeakers.forEach((speaker) => {
+    speakersMarkup += `<article class="featured-speakers-card">
+        <div class="speaker-img">
+          <img src=${speaker.image} alt=${speaker.imageAlt} />
+        </div>
+        <div class="featured-text">
+          <h4>${speaker.name}</h4>
+          <i>${speaker.title}</i>
+          <hr />
+          <p>
+            ${speaker.description}
+          </p>
+        </div>
+        </article>`;
+  });
+  document.getElementById('all-speakers-container').innerHTML =
+    speakersMarkup;
+//   allSpeakersContainer.style.display = 'none';
+  moreSpeakersContainer.style.display = 'none';
+  featuredSpeakersContainer.style.display="none";
+}
+
+moreSpeakers.addEventListener('click', loadFeaturedSpeakers);
