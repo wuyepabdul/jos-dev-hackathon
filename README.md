@@ -1,76 +1,60 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# #HackJOS Hackathon
 
-# Project Name
 
-> One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+## Screenshots
 
-Additional description about the project and its features.
+<img src="images/desktop1.png">
+
+<img src="images/desktop2.png" >
+
+<img src="images/mobile1.png">
+
+<img src="images/mobile2.png">
+
+<img src="images/mobile3.png">
+
+<img src="images/desktop1.png">
+
+<img src="images/desktop2.png">
+
+<img src="images/desktop3.png">
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
-## Live Demo
+## Demo
 
-[Live Demo Link](https://livedemo.com)
-
+https://wuyepabdul.github.io/microverse-porfolio/
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Clone the project
 
+```bash
+  git clone https://github.com/wuyepabdul/microverse-porfolio
+```
 
-To get a local copy up and running follow these simple example steps.
+Go to the project directory
 
-### Prerequisites
+```bash
+  cd hello-microverse
+```
 
-### Setup
+Run the project
 
-### Install
+```bash
+  Right click and choose Open file in browser or live server
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+```
 
 ## Authors
 
-👤 **Author1**
+- GitHub:[@Wuyep Abdul](https://www.github.com/wuyepabdul)
+- GitHub: [@ifnotlily](https://github.com/ifnotlily)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## License
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed

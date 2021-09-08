@@ -186,7 +186,6 @@ function loadFeaturedSpeakers() {
   });
   document.getElementById('all-speakers-container').innerHTML =
     speakersMarkup;
-//   allSpeakersContainer.style.display = 'none';
   moreSpeakersContainer.style.display = 'none';
   featuredSpeakersContainer.style.display="none";
 }
