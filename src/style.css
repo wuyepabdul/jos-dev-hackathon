@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'COCOGOOSE' sans-serif ;
   position: absolute;
 }
 
@@ -19,6 +19,8 @@ body {
   width: 60px;
   height: 40px;
   display: none;
+  z-index: 999;
+  background-color: #ec5242;
 }
 
 hr {
@@ -58,8 +60,51 @@ ul {
   text-align: center;
 }
 
+.menu {
+  background-color: #272a31;
+  color: #d3d3d3;
+  font-size: 25px;
+  height: 100vh;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.menu-close {
+  padding-top: 30px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.menu-links {
+  width: 100%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-links li {
+  list-style-type: none;
+}
+
+.menu-links li:last-child {
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+.menu-links a {
+  color: #d3d3d3;
+}
+
+.menu-links a:hover {
+  color: #ec5242;
+}
+
 .nav-bar {
   position: fixed;
+  padding: 30px 80px;
   box-shadow: 0px 0px 10px #d3d3d3;
   width: 100%;
   top: 0;
@@ -139,8 +184,6 @@ ul {
   color: #272a31;
 }
 
-/* main program */
-
 .main-program {
   background-color: #272a31;
   position: relative;
@@ -194,8 +237,6 @@ ul {
   color: #d3d3d3;
 }
 
-/* featured-speakers */
-
 .featured-speakers .section-heading {
   color: #272a31;
 }
@@ -228,8 +269,8 @@ ul {
 }
 .speaker-img {
   width: 200px;
-  max-width: 200px;
-  max-height: 150px;
+  max-width: 180px;
+  max-height: 130px;
   padding-left: 10px;
   padding-top: 10px;
 }

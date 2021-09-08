@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'COCOGOOSE, Lato', sans-serif;
   position: absolute;
 }
 
@@ -62,8 +62,51 @@ ul {
   text-align: center;
 }
 
+.menu {
+  background-color: #272a31;
+  color: #d3d3d3;
+  font-size: 25px;
+  height: 100vh;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.menu-close {
+  padding-top: 30px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.menu-links {
+  width: 100%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-links li {
+  list-style-type: none;
+}
+
+.menu-links li:last-child {
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+.menu-links a {
+  color: #d3d3d3;
+}
+
+.menu-links a:hover {
+  color: #ec5242;
+}
+
 .nav-bar {
   position: fixed;
+  padding: 30px 80px;
   box-shadow: 0px 0px 10px #d3d3d3;
   width: 100%;
   top: 0;

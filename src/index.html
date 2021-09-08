@@ -43,23 +43,37 @@
     </script>
   </head>
   <body>
-    <nav class="nav-bar d-flex space-between page-padding align-center">
-      <header>
-        <h1 class="logo"><a href="./index.html">#HackJOS</a></h1>
-        <h3 class="hidden">
-          <img src="./images/hamburger.png" class="bars" alt="" />
-        </h3>
-      </header>
-      <ul class="nav-links d-flex align-center">
+    <nav class="menu page-padding">
+      <h3>
+        <i class="menu-close fas fa-times"></i>
+      </h3>
+      <ul class="menu-links d-flex">
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="#">Program</a></li>
-        <li><a href="#">Join</a></li>
-        <li><a href="#">Sponsor</a></li>
-        <li><a href="#">News</a></li>
         <li><a href="#">CC Campaign</a></li>
       </ul>
     </nav>
-    <main>
+    <header class="nav-menu">
+      <nav class="nav-bar d-flex space-between page-padding align-center">
+        <div>
+          <h1 class="logo"><a href="./index.html">#HackJOS</a></h1>
+          <h3 class="hidden">
+            <img src="./images/hamburger.png" class="bars menu-open" alt="" />
+          </h3>
+        </div>
+        <ul class="nav-links d-flex align-center">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">CC Campaign</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container">
       <div class="bg-img"></div>
       <section class="intro page-padding">
         <div class="intro-text">
@@ -155,7 +169,11 @@
           Featured Speakers
           <hr class="section-hr" />
         </h3>
-        <div class="featured-speakers-container">
+        <div
+          class="featured-speakers-container"
+          id="featured-speakers-container"
+        ></div>
+        <!--   <div class="featured-speakers-container">
           <article class="featured-speakers-card">
             <div class="speaker-img">
               <img src="./images/Simon-Lalong.jpg" alt="daser david's image" />
@@ -200,11 +218,39 @@
           </article>
           <article class="featured-speakers-card">
             <div class="speaker-img">
-              <img src="./images/bomkam.jpg" alt="daser david's image" />
+              <img src="./images/Daser-David.jpg" alt="daser david's image" />
             </div>
             <div class="featured-text">
               <h4>Bomkam WUyep</h4>
               <i>Governor, Plateau State</i>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+                corporis provi
+              </p>
+            </div>
+          </article>
+          <article class="featured-speakers-card">
+            <div class="speaker-img">
+              <img src="./images/joseph-dilas.jpeg" alt="daser david's image" />
+            </div>
+            <div class="featured-text">
+              <h4>Simon Lalong</h4>
+              <i>Governor, Plateau State</i>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+                corporis provi
+              </p>
+            </div>
+          </article>
+          <article class="featured-speakers-card">
+            <div class="speaker-img">
+              <img src="./images/bomkam.jpg" alt="bomkam's image" />
+            </div>
+            <div class="featured-text">
+              <h4>Bomkam WUyep</h4>
+              <i>DG PLASMIDA</i>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
@@ -240,35 +286,7 @@
               </p>
             </div>
           </article>
-          <article class="featured-speakers-card">
-            <div class="speaker-img">
-              <img src="./images/Simon-Lalong.jpg" alt="daser david's image" />
-            </div>
-            <div class="featured-text">
-              <h4>Simon Lalong</h4>
-              <i>Governor, Plateau State</i>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                corporis provi
-              </p>
-            </div>
-          </article>
-          <article class="featured-speakers-card">
-            <div class="speaker-img">
-              <img src="./images/bomkam.jpg" alt="daser david's image" />
-            </div>
-            <div class="featured-text">
-              <h4>Bomkam WUyep</h4>
-              <i>Governor, Plateau State</i>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                corporis provi
-              </p>
-            </div>
-          </article>
-        </div>
+        </div> -->
       </section>
 
       <section class="partner-section page-padding">
@@ -300,11 +318,14 @@
       <h1 class="hacklogo"><a href="#">#HackJOS</a></h1>
       <div>
         <p>2021 #HackJOS Annual Hackathon some rights reserved</p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni iure
-        mollitia itaque eius molestias laboriosam, totam impedit beatae psum
-        dolor sit amet consectetur adipisicing elit. In magni iure mollitia
-        itaque eius molestias laboriosam, totam impedit beatae
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni iure
+          m itaque eius molestias laboriosam, totam impedit beataeitaque eius
+          molestias laboriosam, totam impedit beatae
+        </p>
       </div>
     </footer>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
