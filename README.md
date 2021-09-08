@@ -23,7 +23,7 @@ The #HackJos hackathon, the first hackathon in northern Nigeria, held on the 23r
 
 ## Demo
 
-https://wuyepabdul.github.io/microverse-porfolio/
+https://wuyepabdul.github.io/jos-dev-hackathon/
 
 ## Getting Started
 
