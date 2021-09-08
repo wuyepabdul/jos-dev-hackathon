@@ -15,6 +15,10 @@ body {
   padding: 0 80px;
 }
 
+.margin-auto {
+  margin: 0 auto;
+}
+
 .bars {
   width: 60px;
   height: 40px;
@@ -84,7 +88,6 @@ ul {
   background-color: #b93a3a34;
   background: rgba(76, 175, 80, 0.1);
   width: 100%;
-  padding-top: 60px;
 }
 
 .intro::before {
@@ -106,14 +109,9 @@ ul {
   color: #ec5242;
 }
 
-.color-gradient {
-  background: -webkit-linear-gradient(#ec5242, rgb(146, 40, 40), #ec5242);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .intro-text {
   position: relative;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -124,162 +122,104 @@ ul {
   word-spacing: 10px;
 }
 
-.p-text {
-  width: 100%;
+.about-p-text {
   max-width: 600px;
-  padding-left: 20px;
+  padding: 15px 50px;
   flex-wrap: wrap;
-  margin: 40px 0;
-  border: 2px solid #fff;
-  background-color: #d3d3d334;
+  margin: 40px auto;
+  border: 1px solid rgb(199, 195, 195);
+  background-color: rgba(255, 255, 255, 0.842);
 }
 
-.intro-date {
-  font-weight: 900;
-  color: #272a31;
+.hackjos {
+  margin-bottom: 50px;
 }
 
-/* main program */
-
-.main-program {
-  background-color: #272a31;
-  position: relative;
-  top: 0;
-}
-
-.section-heading {
-  color: #d3d3d3;
-  padding: 50px 0;
-  width: 300px;
+.hackjos-text {
+  max-width: 600px;
   margin: 0 auto;
-}
-.section-hr {
-  width: 50px;
-  border: 1px solid;
-  margin: 10px auto;
-  color: #ec5242;
+  padding: 50px 0;
 }
 
-.main-program h4 {
-  color: #ec5242;
-}
-
-.program-card-container {
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.program-card {
-  background-color: #d3d3d334;
-  color: #d3d3d3;
-  max-width: 200px;
-  padding: 8px;
-  margin: 5px;
-}
-
-.program-card-icon {
-  font-size: 40px;
+.hackjos-text h1 {
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
-.program-footer {
-  width: 400px;
-  text-decoration: underline;
+.hackjos-logo-text {
+  max-width: 400px;
+  padding: 20px 50px;
+  border: 1px solid rgb(199, 195, 195);
+  background-color: rgba(255, 255, 255, 0.842);
   margin: 0 auto;
-  padding: 50px 0;
-  word-spacing: 7px;
 }
 
-.program-footer a {
-  color: #d3d3d3;
+.past-hackjos {
+  margin-top: 50px;
 }
 
-/* featured-speakers */
-
-.featured-speakers .section-heading {
-  color: #272a31;
+.hackathon-text h1 {
+  font-size: 25px;
 }
 
-.featured-speakers-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-auto-flow: row;
-  gap: 25px;
+.hackathons {
+  justify-content: center;
 }
 
-.featured-speakers-card {
+.hackathons h3,
+p {
+  font-weight: 700;
+}
+
+.hackathon1 {
   position: relative;
-  max-width: 700px;
-  display: flex;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 5px;
+  padding: 50px 30px;
+  background-color: rgba(255, 68, 0, 0.507);
 }
 
-.featured-speakers-card::after {
-  content: '';
+.hackathon1::before {
+  width: 400px;
   position: absolute;
-  background-image: url('./images/black-white2.jpg');
+  content: '';
+  background-image: url('./images/hackjos1.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 70px;
-  height: 70px;
+  background-size: cover;
   top: 0px;
   left: 0px;
-  opacity: 0.6;
+  bottom: 0px;
+  right: 0px;
   z-index: -1;
-}
-.speaker-img {
-  width: 200px;
-  max-width: 200px;
-  max-height: 150px;
-  padding-left: 10px;
-  padding-top: 10px;
+  opacity: 0.4;
 }
 
-.speaker-img img {
-  width: 100%;
-  height: 100%;
-}
-
-.featured-text {
-  padding-left: 10px;
-  max-width: 400px;
-}
-
-.featured-text i {
-  color: #ec5242;
-}
-
-.featured-text hr {
-  width: 30px;
-}
-
-/* Partners */
-
-.partner-section {
+.hackathon2 {
   position: relative;
-  margin-top: 40px;
-  background-color: #272a31;
-  z-index: 1;
+  width: 100%;
+  max-width: 400px;
+  /* margin: 20px 5px; */
+  padding: 50px 30px;
+  background-color: rgba(255, 68, 0, 0.507);
 }
 
-.partner-section .section-heading {
-  padding: 20px 0;
+.hackathon2::before {
+  content: '';
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  background-image: url('./images/hackjos2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.4;
 }
-
-.partners-link {
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.partners-link li {
-  list-style: none;
-  margin: 0 20px;
-}
-
-.partners-link a {
-  color: #d3d3d3;
-}
-
-/* footer */
 
 .footer-section {
   position: relative;
@@ -351,56 +291,5 @@ ul {
   .intro-date {
     font-weight: 900;
     color: #272a31;
-  }
-
-  .featured-speakers .section-heading {
-    color: #272a31;
-  }
-
-  .featured-speakers-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-auto-flow: row;
-    gap: 25px;
-  }
-
-  .main-program {
-    padding-bottom: 20px;
-  }
-
-  .program-card-container {
-    margin-bottom: 40px;
-  }
-
-  .program-card {
-    display: flex;
-    background-color: #d3d3d334;
-    color: #d3d3d3;
-    width: 100%;
-    max-width: 100%;
-    justify-content: space-around;
-    text-align: left;
-  }
-
-  .program-card-text {
-    max-width: 170px;
-    padding-left: 10px;
-  }
-
-  .join {
-    display: block;
-    background-color: #ec5242;
-    max-width: 300px;
-    color: #d3d3d3;
-    padding: 40px 20px;
-    margin: 0 auto;
-  }
-
-  .program-footer {
-    padding: 20px 0;
-  }
-
-  .program-footer a {
-    display: none;
   }
 }
