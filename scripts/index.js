@@ -28,31 +28,31 @@ const mainProgram = [
   {
     title: 'Introduction',
     description:
-      'Listen to the speakers from various countries about the message of sharing and opening',
+      'Listen to the speakers from various countries about the message',
     icon: 'fa-door-open',
   },
   {
     title: 'Lecture',
     description:
-      'Listen to the speakers from various countries about the message of sharing and opening',
+      'Listen to the speakers from various countries about the message',
     icon: 'fa-chalkboard-teacher',
   },
   {
     title: 'Challenges',
     description:
-      'Listen to the speakers from various countries about the message of sharing and opening',
+      'Listen to the speakers from various countries about the message',
     icon: 'fa-laptop-code',
   },
   {
     title: 'Hackathon',
     description:
-      'Listen to the speakers from various countries about the message of sharing and opening',
+      'Listen to the speakers from various countries about the message',
     icon: 'fa-file-powerpoint',
   },
   {
     title: 'Results',
     description:
-      'Listen to the speakers from various countries about the message of sharing and opening',
+      'Listen to the speakers from various countries about the message',
     icon: 'fa-poll',
   },
 ];

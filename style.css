@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+@font-face {
+  font-family: 'COCOGOOSE';
+  src: url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff') format('woff'),
+    url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE') format('svg'),
+    url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot'),
+    url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix')
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'COCOGOOSE-LETTERPRESS';
+  src: url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff')
+      format('woff'),
+    url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS')
+      format('svg'),
+    url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot'),
+    url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix')
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +31,7 @@
 }
 
 body {
-  font-family: 'Cocogoose', Lato, sans-serif;
+  font-family: 'Cocogoose', Helvetica, sans-serif;
   position: absolute;
 }
 
@@ -61,6 +85,10 @@ ul {
   text-align: center;
 }
 
+.join {
+  display: none;
+}
+
 .menu {
   background-color: #272a31;
   color: #d3d3d3;
@@ -97,7 +125,7 @@ ul {
 
 .partners-link li {
   list-style-type: none;
-  margin: 10px 20px;
+  margin: 10px 40px;
 }
 
 .menu-links li:last-child {
@@ -117,20 +145,49 @@ ul {
   color: #ec5242;
 }
 
-.nav-bar {
+.nav-menu {
   position: fixed;
-  padding: 20px 80px;
+  width: 100%;
+  background-color: #272a31;
+  justify-content: right;
+  padding-top: 10px;
+  z-index: 2;
+}
+
+.nav-menu-links {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-menu-links a {
+  color: #d3d3d3;
+}
+
+.nav-menu-links li {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.nav-bar {
+  position: relative;
+  padding: 30px 80px;
+  margin-top: 20px;
   box-shadow: 0 0 10px #d3d3d3;
   width: 100%;
+  height: -20px;
   top: 0;
   z-index: 99;
   background-color: #fff;
 }
 
 .nav-bar li:last-child {
+  display: flex;
   border: 2px solid #ec5242;
   width: 150px;
   max-width: 150px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
@@ -138,7 +195,7 @@ ul {
   position: relative;
   background-color: rgba(76, 175, 80, 0.1);
   width: 100%;
-  padding-top: 60px;
+  padding-top: 120px;
 }
 
 .intro::before {
@@ -155,7 +212,6 @@ ul {
 }
 
 .p-heading {
-  font-size: 35px;
   font-weight: 400;
   color: #ec5242;
 }
@@ -172,7 +228,7 @@ ul {
   padding-bottom: 80px;
 }
 
-.intro-text h1 {
+.intro-heading {
   font-size: 50px;
   color: #ec5242;
   font-weight: 900;
@@ -222,13 +278,16 @@ ul {
 
 .program-card-container {
   justify-content: center;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 .program-card {
   background-color: #d3d3d334;
   color: #d3d3d3;
-  max-width: 200px;
+  width: 100%;
+  min-width: 150px;
+  max-height: 400px;
+  height: 300px;
   padding: 8px;
   margin: 5px;
 }
@@ -329,7 +388,9 @@ p {
 .hackathon1 {
   position: relative;
   width: 100%;
+  height: 100%;
   max-width: 400px;
+  height: 200px;
   margin: 20px 5px;
   padding: 50px 30px;
   background-color: rgba(255, 68, 0, 0.507);
@@ -338,7 +399,8 @@ p {
 .hackathon1::before {
   content: '';
   width: 100%;
-  max-width: 400px;
+  max-height: 400px;
+
   position: absolute;
   background-image: url('./images/hackjos1.jpg');
   background-repeat: no-repeat;
@@ -354,6 +416,7 @@ p {
 .hackathon2 {
   position: relative;
   width: 100%;
+  height: 200px;
   max-width: 400px;
   margin: 20px 5px;
   padding: 50px 30px;
@@ -476,8 +539,8 @@ p {
 
 .partners-link img {
   width: 100%;
-  height: 80px;
-  filter: grayscale(90%);
+  height: 30px;
+  filter: grayscale(20%);
 }
 
 .footer-section {
@@ -488,6 +551,13 @@ p {
   gap: 35px;
   margin-bottom: 20px;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-section p,
+h1 {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -590,6 +660,7 @@ p {
 
   .program-card-container {
     margin-bottom: 40px;
+    flex-direction: column;
   }
 
   .program-card {
@@ -598,6 +669,7 @@ p {
     color: #d3d3d3;
     width: 100%;
     max-width: 100%;
+    height: 100%;
     justify-content: space-around;
     text-align: left;
   }
@@ -631,5 +703,22 @@ p {
   .hackathons {
     display: flex;
     flex-direction: column !important;
+  }
+
+  .about-footer {
+    color: #d3d3d3;
+    background-color: #272a31;
+    position: relative;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 35px;
+    margin-bottom: 0;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .about-footer .hacklogo a {
+    color: #d3d3d3;
   }
 }
