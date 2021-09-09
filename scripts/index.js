@@ -57,7 +57,7 @@ const mainProgram = [
   },
 ];
 
-let progamMarkup = ``;
+let progamMarkup = '';
 
 mainProgram.forEach((program) => {
   progamMarkup += `<article class="program-card align-center">
@@ -140,7 +140,7 @@ const allSpeakers = [
   },
 ];
 
-let markup = ``;
+let markup = '';
 
 allSpeakers.forEach((speaker) => {
   markup += `<article class="featured-speakers-card">
@@ -162,11 +162,8 @@ document.getElementById('featured-speakers-container').innerHTML = markup;
 
 const moreSpeakersContainer = document.querySelector('.get-more');
 const moreSpeakers = document.querySelector('.more');
-const allSpeakersContainer = document.querySelector('.all-speakers');
-const featuredSpeakersContainer = document.querySelector(
-  '.featured-speakers-container'
-);
-let speakersMarkup = ``;
+const speakers = document.querySelector('.featured-speakers-container');
+let speakersMarkup = '';
 
 function loadFeaturedSpeakers() {
   allSpeakers.forEach((speaker) => {
@@ -184,10 +181,9 @@ function loadFeaturedSpeakers() {
         </div>
         </article>`;
   });
-  document.getElementById('all-speakers-container').innerHTML =
-    speakersMarkup;
+  document.getElementById('all-speakers-container').innerHTML = speakersMarkup;
   moreSpeakersContainer.style.display = 'none';
-  featuredSpeakersContainer.style.display="none";
+  speakers.style.display = 'none';
 }
 
 moreSpeakers.addEventListener('click', loadFeaturedSpeakers);
