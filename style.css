@@ -92,7 +92,7 @@ ul {
 
 .nav-bar li {
   list-style-type: none;
-  padding: 0px 16px;
+  padding: 0 16px;
 }
 
 .partners-link li {
@@ -120,9 +120,9 @@ ul {
 .nav-bar {
   position: fixed;
   padding: 20px 80px;
-  box-shadow: 0px 0px 10px #d3d3d3;
+  box-shadow: 0 0 10px #d3d3d3;
   width: 100%;
-  top: 0px;
+  top: 0;
   z-index: 99;
   background-color: #fff;
 }
@@ -131,7 +131,7 @@ ul {
   border: 2px solid #ec5242;
   width: 150px;
   max-width: 150px;
-  padding: 0px;
+  padding: 0;
 }
 
 .intro {
@@ -144,10 +144,10 @@ ul {
 .intro::before {
   content: '';
   position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-image: url('./images/coding-world.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@ ul {
   max-width: 600px;
   padding-left: 20px;
   flex-wrap: wrap;
-  margin: 40px 0px;
+  margin: 40px 0;
   border: 2px solid #fff;
   background-color: #d3d3d334;
 }
@@ -197,21 +197,23 @@ ul {
 .main-program {
   background-color: #272a31;
   position: relative;
-  top: 0px;
+  top: 0;
 }
 
 .section-heading {
   color: #d3d3d3;
-  padding: 25px 0px;
+  padding-top: 25px;
   font-size: 30px;
   width: 300px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
+
 .section-hr {
   width: 50px;
   border: 1px solid;
   margin: 10px auto;
   color: #ec5242;
+  margin-bottom: 40px;
 }
 
 .main-program h4 {
@@ -239,8 +241,8 @@ ul {
 .program-footer {
   width: 400px;
   text-decoration: underline;
-  margin: 0px auto;
-  padding: 50px 0px;
+  margin: 0 auto;
+  padding: 50px 0;
   word-spacing: 7px;
 }
 
@@ -258,8 +260,8 @@ ul {
 
 .hackjos-text {
   max-width: 600px;
-  margin: 0px auto;
-  padding: 50px 0px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .hackjos-text h1 {
@@ -271,7 +273,7 @@ ul {
 .hackjos-logo {
   height: 200px;
   max-width: 400px;
-  margin: 0px auto;
+  margin: 0 auto;
   border: 1px solid rgb(206, 204, 204);
   padding: 40px;
   filter: grayscale(50%);
@@ -288,7 +290,7 @@ ul {
   padding: 20px 50px;
   border: 1px solid rgb(199, 195, 195);
   background-color: rgba(255, 255, 255, 0.842);
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .past-hackjos {
@@ -341,10 +343,10 @@ p {
   background-image: url('./images/hackjos1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   z-index: -1;
   opacity: 0.4;
 }
@@ -366,10 +368,10 @@ p {
   background-image: url('./images/hackjos2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   z-index: -1;
   opacity: 0.4;
 }
@@ -406,8 +408,8 @@ p {
   background-size: contain;
   width: 70px;
   height: 70px;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   opacity: 0.6;
   z-index: -1;
 }
@@ -446,7 +448,7 @@ p {
 }
 
 .more {
-  margin: 0px auto;
+  margin: 0 auto;
   border: none;
   font-size: 20px;
   background-color: inherit;
@@ -469,7 +471,7 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   max-width: 700px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .partners-link img {
@@ -489,7 +491,7 @@ p {
 }
 
 @media (max-width: 768px) {
-  .nav-bar :before {
+  .nav-bar ::before {
     opacity: 0.1;
   }
 
@@ -507,7 +509,7 @@ p {
   }
 
   .page-padding {
-    padding: 0px 40px;
+    padding: 0 40px;
   }
 
   .intro {
@@ -541,7 +543,7 @@ p {
     max-width: 600px;
     padding-left: 20px;
     flex-wrap: wrap;
-    margin: 40px 0px;
+    margin: 40px 0;
     border: 2px solid #fff;
     background-color: #d3d3d334;
   }
@@ -611,11 +613,11 @@ p {
     max-width: 300px;
     color: #d3d3d3;
     padding: 40px 20px;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
   .program-footer {
-    padding: 20px 0px;
+    padding: 20px 0;
   }
 
   .program-footer a {
