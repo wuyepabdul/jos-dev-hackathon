@@ -4,16 +4,15 @@ The #HackJos hackathon, the first hackathon in northern Nigeria, held on the 23r
 
 ## Screenshots
 
-<img src="src/images/mobile1.png">
+<img src="images/mobile1.png"><br>
 
-<img src="src/images/mobile2.png">
+<img src="images/mobile2.png"><br>
 
-<img src="src/images/mobile3.png">
+<img src="images/mobile3.png"><br>
 
-<img src="src/images/desktop1.png">
+<img src="images/desktop1.png"><br>
 
-<img src="src/images/desktop2.png">
-
+<img src="images/desktop2.png">
 
 ## Built With
 
@@ -51,6 +50,7 @@ Run the project
 - GitHub:[@Wuyep Abdul](https://www.github.com/wuyepabdul)
 
 ## Acknowledgments
+
 - Original design idea by Cindy Shin in Behance
 
 ## License

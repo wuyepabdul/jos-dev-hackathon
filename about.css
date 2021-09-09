@@ -167,7 +167,6 @@ ul {
 }
 
 .about-p-text {
-  max-width: 600px;
   padding: 15px 50px;
   flex-wrap: wrap;
   margin: 40px auto;
