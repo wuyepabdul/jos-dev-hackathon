@@ -25,7 +25,7 @@ body {
 }
 
 hr {
-  opacity: 0.5;
+  color: rgb(206, 204, 204);
 }
 
 a {
@@ -40,10 +40,6 @@ a:active {
 
 a:hover {
   color: #ec5242;
-}
-
-hr {
-  color: rgb(206, 204, 204);
 }
 
 ul {
@@ -95,12 +91,12 @@ ul {
 }
 
 .nav-bar li {
-  list-style: none;
+  list-style-type: none;
   padding: 0px 16px;
 }
 
 .partners-link li {
-  list-style: none;
+  list-style-type: none;
   margin: 10px 20px;
 }
 
