@@ -42,6 +42,10 @@ a:hover {
   color: #ec5242;
 }
 
+hr{
+  color: rgb(206, 204, 204);
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -105,7 +109,7 @@ ul {
 
 .nav-bar {
   position: fixed;
-  padding: 30px 80px;
+  padding: 20px 80px;
   box-shadow: 0px 0px 10px #d3d3d3;
   width: 100%;
   top: 0;
@@ -160,6 +164,7 @@ ul {
 
 .intro-text {
   position: relative;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -193,7 +198,8 @@ ul {
 
 .section-heading {
   color: #d3d3d3;
-  padding: 50px 0;
+  padding: 25px 0;
+  font-size: 30px;
   width: 300px;
   margin: 0 auto;
 }
@@ -236,6 +242,136 @@ ul {
 
 .program-footer a {
   color: #d3d3d3;
+}
+
+.about-p-text {
+  padding: 15px 50px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  border: 1px solid rgb(199, 195, 195);
+  background-color: rgba(255, 255, 255, 0.842);
+}
+
+.hackjos {
+  margin-bottom: 50px;
+}
+
+.hackjos-text {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.hackjos-text h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.hackjos-logo {
+  height: 200px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid rgb(206, 204, 204);
+  padding: 40px;
+  filter: grayscale(50%);
+}
+
+.hackjos-logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.hackjos-logo-text {
+  text-align: center;
+  max-width: 400px;
+  padding: 20px 50px;
+  border: 1px solid rgb(199, 195, 195);
+  background-color: rgba(255, 255, 255, 0.842);
+  margin: 0 auto;
+}
+
+.past-hackjos {
+  margin-top: 50px;
+}
+
+.hackathon-text h1 {
+  font-size: 25px;
+}
+
+.hackathons {
+  justify-content: center;
+}
+
+.hackathons h3,
+p {
+  font-weight: 700;
+}
+
+.hackathon1 h3 {
+  color: #fff;
+}
+
+.hackathon1 p {
+  color: #fff;
+}
+
+.hackathon2 h3 {
+  color: #fff;
+}
+
+.hackathon2 p {
+  color: #fff;
+}
+
+.hackathon1 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 5px;
+  padding: 50px 30px;
+  background-color: rgba(255, 68, 0, 0.507);
+}
+
+.hackathon1::before {
+  content: '';
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  background-image: url('./images/hackjos1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.hackathon2 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 5px;
+  padding: 50px 30px;
+  background-color: rgba(255, 68, 0, 0.507);
+}
+
+.hackathon2::before {
+  content: '';
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  background-image: url('./images/hackjos2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.4;
 }
 
 .featured-speakers .section-heading {
@@ -324,27 +460,26 @@ ul {
   margin-top: 40px;
   background-color: #272a31;
   z-index: 1;
-}
-
-.partner-section .section-heading {
-  padding: 20px 0;
+  padding-bottom: 50px;
 }
 
 .partners-link {
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .partners-link li {
   list-style: none;
-  margin: 0 20px;
+  margin: 10px 20px;
 }
 
-.partners-link a {
-  color: #d3d3d3;
+.partners-link img {
+  width: 100%;
+  height: 80px;
+  filter: grayscale(90%);
 }
-
-/* footer */
 
 .footer-section {
   position: relative;
@@ -371,6 +506,7 @@ ul {
 
   .bars {
     display: block;
+    cursor: pointer;
   }
 
   .page-padding {
@@ -488,5 +624,14 @@ ul {
 
   .program-footer a {
     display: none;
+  }
+
+  .partner-section {
+    padding-bottom: 50px;
+  }
+
+  .hackathons {
+    display: flex;
+    flex-direction: column !important;
   }
 }

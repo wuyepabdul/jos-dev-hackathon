@@ -75,7 +75,7 @@ const allSpeakers = [
   {
     name: 'Simon Lalong',
     title: 'Governor, Plateau State',
-    image: './src/images/Simon-Lalong.jpg',
+    image: './images/Simon-Lalong.jpg',
     imageAlt: 'lalongs picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
@@ -84,7 +84,7 @@ const allSpeakers = [
   {
     name: 'Daser David',
     title: 'DG, PICTDA',
-    image: './src/images/Daser-David.jpg',
+    image: './images/Daser-David.jpg',
     imageAlt: 'dasers picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
@@ -92,7 +92,7 @@ const allSpeakers = [
   {
     name: 'Bomkam Wuyep',
     title: 'DG, PLASMIDA',
-    image: './src/images/bomkam.jpg',
+    image: './images/bomkam.jpg',
     imageAlt: 'bomkams picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
@@ -100,7 +100,7 @@ const allSpeakers = [
   {
     name: 'Yohanna Izam',
     title: 'VC Plateau State University',
-    image: './src/images/Professor-Yohanna-Izam.jpg',
+    image: './images/Professor-Yohanna-Izam.jpg',
     imageAlt: 'yohanna izams picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
@@ -108,7 +108,7 @@ const allSpeakers = [
   {
     name: 'Bashir Sheidu',
     title: 'CEO Farmers Market',
-    image: './src/images/Bash.jpeg',
+    image: './images/Bash.jpeg',
     imageAlt: 'bashirs picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
@@ -116,7 +116,7 @@ const allSpeakers = [
   {
     name: 'Yusuph Dilas',
     title: 'CEO Urbanstudent.ng',
-    image: './src/images/joseph-dilas.jpeg',
+    image: './images/joseph-dilas.jpeg',
     imageAlt: 'dilas picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
@@ -125,7 +125,7 @@ const allSpeakers = [
   {
     name: 'Daser David',
     title: 'DG, PICTDA',
-    image: './src/images/Daser-David.jpg',
+    image: './images/Daser-David.jpg',
     imageAlt: 'dasers picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',
@@ -133,7 +133,7 @@ const allSpeakers = [
   {
     name: 'Bomkam Wuyep',
     title: 'DG, PLASMIDA',
-    image: './src/images/bomkam.jpg',
+    image: './images/bomkam.jpg',
     imageAlt: 'bomkams picture',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,corporis provi',

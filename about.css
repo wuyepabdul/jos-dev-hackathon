@@ -307,7 +307,7 @@ p {
 
   .bars {
     display: block;
-      cursor: pointer;
+    cursor: pointer;
   }
 
   .page-padding {
