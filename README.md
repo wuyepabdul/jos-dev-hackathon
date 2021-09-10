@@ -1,76 +1,58 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# #HackJOS Hackathon
 
-# Project Name
+The #HackJos hackathon, the first hackathon in northern Nigeria, held on the 23rd and the 24th of March in the city of Jos, is an annual Hackathon aimed at descovering great talents in software development.
 
-> One paragraph statement about the project.
+## Screenshots
 
-![screenshot](./app_screenshot.png)
+<img src="images/mobile1.png"><br>
 
-Additional description about the project and its features.
+<img src="images/mobile2.png"><br>
+
+<img src="images/mobile3.png"><br>
+
+<img src="images/desktop1.png"><br>
+
+<img src="images/desktop2.png">
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo
+## Demo
 
-[Live Demo Link](https://livedemo.com)
-
+https://wuyepabdul.github.io/jos-dev-hackathon/
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Clone the project
 
+```bash
+  git clone https://github.com/wuyepabdul/jos-dev-hackathon
+```
 
-To get a local copy up and running follow these simple example steps.
+Go to the project directory
 
-### Prerequisites
+```bash
+  cd jos-dev-hackathon
+```
 
-### Setup
+Run the project
 
-### Install
+```bash
+  Right click and choose Open file in browser or live server
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+```
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- GitHub:[@Wuyep Abdul](https://www.github.com/wuyepabdul)
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by Cindy Shin in Behance
 
-## 📝 License
+## License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed

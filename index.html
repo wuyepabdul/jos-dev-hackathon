@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jos-Dev Hackathon</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K4M988VH5G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-K4M988VH5G');
+    </script>
+  </head>
+  <body>
+    <nav class="menu page-padding">
+      <i class="menu-close fas fa-times"></i>
+      <ul class="menu-links d-flex">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#">CC Campaign</a></li>
+      </ul>
+    </nav>
+    <header class="nav-menu">
+      <ul class="nav-menu-links d-flex page-padding">
+        <li>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">My Page</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+      <nav class="nav-bar d-flex space-between page-padding align-center">
+        <div>
+          <h1 class="logo"><a href="./index.html">#HackJOS</a></h1>
+          <h3 class="hidden">
+            <img
+              src="./images/hamburger.png"
+              class="bars menu-open"
+              alt="menu icon"
+            />
+          </h3>
+        </div>
+        <ul class="nav-links d-flex align-center">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">CC Campaign</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container">
+      <section class="intro page-padding">
+        <div class="intro-text">
+          <h1 class="p-heading">"Hello! Jos Devs"</h1>
+          <h2 class="color-gradient intro-heading">
+            WELCOME TO THE ANNUAL<br /><span> #HackJOS HACKATON</span>
+            <br /><span>2021</span>
+          </h2>
+          <p class="p-text">
+            A Pre-Hackathon workshop which prepares the teams for the HackJos
+            Hackathon. All applicants are required to come with computers and
+            teams mates. Interested individual can also be a part and find a
+            team to work with at the workshop.
+          </p>
+
+          <h3 class="intro-date">2021.09.27(Mon) ~ 30(Thur)</h3>
+          @ Plateau State University, Bokkos
+        </div>
+      </section>
+
+      <section class="main-program align-center page-padding">
+        <h3 class="section-heading">Main program</h3>
+        <hr class="section-hr" />
+        <div
+          class="program-card-container d-flex align-center"
+          id="program-container"
+        ></div>
+        <div class="join">Join #HackJOS Hackathon 2021</div>
+        <div class="program-footer"><a href="#">SEE THE WHOLE PROGRAM</a></div>
+      </section>
+
+      <section class="featured-speakers page-padding">
+        <h1 class="section-heading align-center">Featured Speakers</h1>
+        <hr class="section-hr" />
+        <div
+          class="featured-speakers-container"
+          id="featured-speakers-container"
+        ></div>
+        <div
+          class="all-speakers-container all-speakers"
+          id="all-speakers-container"
+        ></div>
+        <div class="get-more">
+          <button type="submit" class="more">
+            MORE <i class="fas fa-angle-down"></i>
+          </button>
+        </div>
+      </section>
+
+      <section class="partner-section page-padding">
+        <h1 class="section-heading align-center">Partners</h1>
+        <hr class="section-hr" />
+        <ul class="partners-link d-flex">
+          <li>
+            <img src="./images/hackjos.jpg" alt="hackjos logo" />
+          </li>
+          <li>
+            <img src="./images/pictda.png" alt="pictda logo" />
+          </li>
+          <li>
+            <img src="./images/plasmida.jpeg" alt="plasmida logo" />
+          </li>
+          <li>
+            <img src="./images/nhub.png" alt="n hub logo" />
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer-section page-padding">
+      <h1 class="hacklogo"><a href="#">#HackJOS</a></h1>
+      <div>
+        <p>2021 #HackJOS Annual Hackathon some rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
