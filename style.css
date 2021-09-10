@@ -1,8 +1,4 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 @font-face {
   font-family: 'COCOGOOSE';
@@ -34,8 +30,15 @@
   --lato: 'Lato', 'arial', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   position: absolute;
+  font-family: 'COCOGOOSE', 'Lato', sans-serif;
 }
 
 .page-padding {
