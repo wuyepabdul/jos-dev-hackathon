@@ -892,7 +892,6 @@ h1 {
   .featured-speakers-container article:nth-child(even) {
     display: flex;
   }
-  
 
   .featured-speakers .section-heading {
     color: #272a31;
@@ -904,7 +903,6 @@ h1 {
     grid-auto-flow: row;
     gap: 25px;
   }
-  
 
   .all-speakers-container {
     display: grid;
