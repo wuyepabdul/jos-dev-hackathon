@@ -1,35 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-@font-face {
-  font-family: 'COCOGOOSE';
-  src: url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff') format('woff'),
-    url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE') format('svg'),
-    url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot'),
-    url('../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix')
-      format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'COCOGOOSE-LETTERPRESS';
-  src: url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff')
-      format('woff'),
-    url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS')
-      format('svg'),
-    url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot'),
-    url('../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix')
-      format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-:root {
-  --coco: 'COCOGOOSE', 'arial', sans-serif;
-  --letterpress: 'COCOGOOSE-LETTERPRESS', 'arial', sans-serif;
-  --lato: 'Lato', 'arial', sans-serif;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -88,10 +58,6 @@ ul {
 
 .nav-links {
   display: none !important;
-}
-
-.page-padding {
-  padding: 0 40px;
 }
 
 .menu {
