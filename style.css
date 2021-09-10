@@ -490,8 +490,11 @@ ul {
     flex-direction: column !important;
   }
 
-  .hackathons h3,
-  p {
+  .hackathons p {
+    font-weight: 700;
+  }
+
+  .hackathons h3 {
     font-weight: 700;
   }
 
@@ -525,7 +528,6 @@ ul {
     content: '';
     width: 100%;
     max-height: 400px;
-
     position: absolute;
     background-image: url('./images/hackjos1.jpg');
     background-repeat: no-repeat;
@@ -575,8 +577,6 @@ ul {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
-  
 }
 
 @media (min-width: 768px) {
@@ -627,7 +627,6 @@ ul {
     margin: 10px 40px;
   }
 
-
   .nav-menu-links li {
     list-style-type: none;
     padding-left: 15px;
@@ -645,7 +644,6 @@ ul {
   .nav-menu-links a {
     color: #d3d3d3;
   }
-
 
   .menu-links a {
     color: #d3d3d3;
