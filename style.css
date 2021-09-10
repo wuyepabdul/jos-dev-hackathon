@@ -9,10 +9,11 @@
 body {
   position: absolute;
   font-family: 'COCOGOOSE', 'Lato', sans-serif;
+  /* width: 100%; */
 }
 
 .page-padding {
-  padding: 0 80px;
+  padding: 0 30px;
 }
 
 hr {
@@ -197,21 +198,22 @@ h1 {
   min-width: 100%;
   padding-top: 20px;
   padding-bottom: 80px;
-  overflow-x: hidden !important;
 }
 
 .intro-text h1 {
-  font-size: 40px;
+  font-size: 25px;
   color: #ec5242;
-  font-weight: 900;
+  font-weight: 400;
   word-spacing: 10px;
 }
 
 .intro-heading {
-  font-size: 50px;
+  font-size: 30px;
   color: #ec5242;
   font-weight: 900;
   word-spacing: 10px;
+  min-width: 600px;
+  padding-top: 20px;
 }
 
 .color-gradient {
@@ -221,7 +223,8 @@ h1 {
 }
 
 .p-text {
-  width: 100%;
+  width: 600px;
+  max-width: 100%;
   padding-left: 20px;
   flex-wrap: wrap;
   margin: 40px 0;
@@ -577,7 +580,7 @@ h1 {
   padding-bottom: 30px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .join {
     display: none;
   }
@@ -675,7 +678,8 @@ h1 {
 
   .nav-bar {
     position: relative;
-    padding: 20px 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
     box-shadow: 0 0 10px #d3d3d3;
     width: 100%;
